@@ -16,19 +16,82 @@
       <section class="banner">
         <article>
           <div class="infoPet">
-            <h1 id="nomeDoPet">Scooby</h1>
+            <h2 id="nomeDoPet">Scooby</h2>
             <p id="descricao">Scooby é um cão leal e protetor. Ama crianças e é muito obediente. Precisa de espaço para correr e brincar. Ideal para famílias ativas.</p>
           </div>
-         <img id="fotoGrande"   src="/Assets/315a8df513c9436e539364452920026dceaf3cb0 (1).png" alt="cachorro caramelo branco com grandes manchas marron claro">
+         <img id="fotoGrande"  src="/Assets/scooby.png" alt="cachorro caramelo branco com grandes manchas marron claro">
         </article>
+
+      <section class="galeria">
+        <div class="pet">
+          <img id="fotoGrande" class="imgPet" src="./Assets/scooby.png" alt=" cachorro porte medio com pelagem amarelo e branco">
+          <h2 class="nome" >Scooby</h2>
+          <p class="descricao">Scooby é um cão leal e protetor. Ama crianças e é muito obediente. Precisa de espaço para correr e brincar. Ideal para famílias ativas.</p>
+        </div>
+        <div class="pet">
+          <img class="imgPet" src="./Assets/pantera.png" alt=" gato preto">
+          <h2 class="nome">Pantera</h2>
+          <p class="descricao">Pantera é uma gatinha carinhosa e brincalhona. Ela adora carinho e é muito sociável com outros gatos. Procura uma família que lhe dê muito amor e atenção.</p>
+        </div>
+        <div class="pet">
+          <img class="imgPet" src="./Assets/thor.png" alt=" cachorro cramelo">
+          <h2 class="nome">Thor</h2>
+          <p class="descricao">Thor é um cão cheio de energia e lealdade. Adora brincar e estar perto da família, sempre demonstrando carinho e proteção. Procura um lar onde possa receber amor e ter bastante espaço para gastar sua energia.</p>
+        </div>
+        <div class="pet">
+          <img class="imgPet" src="./Assets/garfield.png" alt=" gato pelagem branco e laranja">
+          <h2 class="nome">Garfield</h2>
+          <p class="descricao">Garfield é um gato independente mas carinhoso. Gosta de explorar e é muito curioso. Ideal para quem quer um companheiro aventureiro.</p>
+        </div>
+
+      </section>
       </section>
 
-      <section>
-        <link rel="stylesheet" href="">
-        <link rel="stylesheet" href="">
-        <link rel="stylesheet" href="">
-        <link rel="stylesheet" href="">
+      <section class="containerFormulario">
+      <h1>Pronto para transformar uma vida?</h1>
+      <p class="formP">Junte-se a centenas de famílias que já encontraram seus melhores amigos através do PetAdopt.</p>
+
+      <form class="infoPet">
+        <label for="nome" class="labelDados">Nome:</label>
+        <input class="inputDados" id="nome" type="text" placeholder="Escreva seu nome">
+
+          <label for="tel" class="labelDados">Telefone:</label>
+          <input class="inputDados" type="tel" id="tel" placeholder="(xx) xxxxx-xxxx">
+
+          <label for="email" class="labelDados">E-mail:</label>
+          <input class="inputDados" type="email" id="email" placeholder="Seuemail@exemplo.com">
+
+          <fieldset class="infoRadio">
+            <legend class="kpet">Animal escolhido:</legend>
+           <label class="infoLabel">
+            <input type="radio" name="animal" value="cachorro">
+            Cachorro
+           </label>
+
+           <label class="infoLabel">
+            <input type="radio" name="
+            animal" value="gato">
+            Gato
+           </label>
+          </fieldset>
+
+            <label for="nomeAnimal" class="infoNamePet">Nome do Animal:</label>
+            <input class="inputDados" type="text" id="nomeAnimal" placeholder="Escreva o nome do animal que você quer adotar.">
+          <button type="submit" class="btn-pet">Comece Sua Jornada</button>
+      </form>
       </section>
+      <footer>
+        <section class="msgRedes">
+        <img src="./Assets/Logo.png" alt=" logo recicla tech" class="logoFoo">
+        <p>Nossa missão é conectar pets abandonados com famílias amorosas, transformando vidas através do amor incondicional.</p>
+        <div>
+          <img src="./Assets/facebook.png" alt="">
+          <img src="./Assets/instagram.png" alt="">
+        </div>
+        </section> 
+        <p>© 2025 PetAdopt. Desenvolvido com ❤️ para ajudar nossos amigos peludinhos.</p>
+
+      </footer>
     </main>
 
     <script src="./script.js"></script>
